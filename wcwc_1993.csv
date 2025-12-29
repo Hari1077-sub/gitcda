@@ -1,0 +1,30 @@
+Tournament_ID,Match_ID,Team_1,Team_2,Toss_Won_By,Winner,Match_Won_by,1st_innings_score,2nd_innings_score,Overs_1st,Overs_2nd,1st_innings_wicket,2nd_innings_wicket
+W093,W093001,Netherlands,Australia,Australia,Australia,Chasing,53,56,49.3,16.5,10,0
+W093,W093002,England,Denmark,Denmark,England,Defending,286,47,60,33.5,3,10
+W093,W093003,India,West Indies,West Indies,India,Defending,155,92,52.3,48.4,5,10
+W093,W093004,Ireland,New Zealand,New Zealand,New Zealand,Defending,82,83,39,19.3,6,3
+W093,W093005,India,Australia,India,Australia,Chasing,108,114,58.4,38.3,10,3
+W093,W093006,Ireland,Denmark,Denmark,Ireland,Defending,234,164,60,60,6,9
+W093,W093007,New Zealand,England,England,New Zealand,Defending,127,102,54.5,57.2,10,10
+W093,W093008,Netherlands,West Indies,Netherlands,Netherlands,Defending,158,88,59.5,45.4,10,10
+W093,W093009,West Indies,Australia,West Indies,Australia,Chasing,131,133,60,29.5,8,2
+W093,W093010,Denmark,New Zealand,Denmark,New Zealand,Chasing,93,94,58.1,17.5,10,1
+W093,W093011,England,Ireland,Ireland,England,Defending,259,80,60,56,4,9
+W093,W093012,India,Netherlands,Netherlands,India,Defending,93,76,35,34.1,4,10
+W093,W093013,Australia,Ireland,Australia,Australia,Defending,194,145,60,60,8,4
+W093,W093014,West Indies,Denmark,Denmark,West Indies,Defending,120,76,45.3,52.1,10,10
+W093,W093015,England,India,India,England,Defending,179,176,59.5,59.5,10,10
+W093,W093016,Netherlands,New Zealand,Netherlands,New Zealand,Chasing,40,41,54.2,13.2,10,0
+W093,W093017,England,Australia,England,England,Defending,208,165,60,53.5,5,10
+W093,W093018,Denmark,Netherlands,Denmark,Denmark,Defending,152,122,60,55.1,7,10
+W093,W093019,Ireland,India,India,India,Chasing,151,152,58.4,57.3,10,6
+W093,W093020,West Indies,New Zealand,West Indies,New Zealand,Chasing,96,97,57.1,26.4,10,3
+W093,W093021,Denmark,Australia,Denmark,Australia,Chasing,76,77,54,8.5,10,3
+W093,W093022,West Indies,England,England,England,Chasing,120,123,59.4,46.1,10,6
+W093,W093023,New Zealand,India,New Zealand,New Zealand,Defending,154,112,60,54.3,8,10
+W093,W093024,Netherlands,Ireland,Ireland,Ireland,Chasing,134,136,60,56.3,8,8
+W093,W093025,Australia,New Zealand,Australia,New Zealand,Chasing,77,78,51.3,18.2,10,0
+W093,W093026,Denmark,India,India,India,Chasing,116,117,57.5,40.5,10,1
+W093,W093027,England,Netherlands,Netherlands,England,Defending,207,74,60,53.5,5,10
+W093,W093028,West Indies,Ireland,Ireland,West Indies,Defending,208,189,60,60,6,9
+W093,W093029,England,New Zealand,New Zealand,England,Defending,195,128,60,55.1,5,10

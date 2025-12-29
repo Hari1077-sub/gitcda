@@ -1,0 +1,55 @@
+Tournament_ID,Match_ID,Team_1,Team_2,Toss_Won_By,Winner,Match_Won_by,1st_innings_score,2nd_innings_score,Overs_1st,Overs_2nd,1st_innings_wicket,2nd_innings_wicket
+M003,M003001,West Indies,South Africa,West Indies,West Indies,Defending,278,275,50,49,5,9
+M003,M003002,Zimbawe,Namibia,Namibia,Zimbawe,Defending,340,104,50,25.1,2,5
+M003,M003003,Sri Lanka,New Zealand,New Zealnd,Sri Lanka,Defending,272,225,50,45.3,7,10
+M003,M003004,Australia,Pakistan,Pakistan,Australia,Defending,310,228,50,44.3,8,10
+M003,M003005,Canada,Bangladesh,Canada,Canada,Defending,180,120,49.1,28,10,10
+M003,M003006,Kenya,South Africa,Kenya,South Africa,Chasing,140,142,38,21.2,10,0
+M003,M003007,India,Netherlands,India,India,Defending,204,136,48.5,48.1,10,10
+M003,M003008,Zimbawe,England,Null,Zimbawe,Null,Null,Null,Null,Null,Null,Null
+M003,M003009,New Zealand,West Indies,West Indies,New Zealand,Defending,241,221,50,49.4,7,10
+M003,M003010,Bangladesh,Sri Lanka,Sri Lanka,Sri Lanka,Chasing,124,126,31.1,21.1,10,0
+M003,M003011,India,Australia,India,Australia,Chasing,125,128,41.4,22.2,10,1
+M003,M003012,Canada,Kenya,Canada,Kenya,Chasing,197,198,49,48.3,10,6
+M003,M003013,Netherlands,England,England,England,Chasing,142,144,50,23.2,9,4
+M003,M003014,Pakistan,Namibia,Pakistan,Pakistan,Defending,255,84,50,17.4,9,10
+M003,M003015,South Africa,New Zealand,South Africa,New Zealand,Chasing,306,229,50,36.5,6,1
+M003,M003016,West Indies,Bangladesh,Bangladesh,Null,Null,244,32,50,8.1,9,2
+M003,M003017,India,Zimbawe,Zimbawe,India,Defending,255,172,50,44.4,7,10
+M003,M003018,Canada,Sri Lanka,Sri Lanka,Sri Lanka,Chasing,36,37,18.4,4.4,10,1
+M003,M003019,England,Namibia,Namibia,England,Defending,272,217,50,50,10,9
+M003,M003020,Australia,Netherlands,Netherlands,Australia,Defending,170,122,36,30.2,2,10
+M003,M003021,Kenya,New Zealand,Null,Kenya,null,null,null,null,null,null,null
+M003,M003022,Bangladesh,South Africa,South Africa,South Africa,Chasing,108,109,35.1,12,10,0
+M003,M003023,England,Pakistan,England,England,Defending,246,134,50,31,8,10
+M003,M003024,Canada,West Indies,West Indies,West Indies,Chasing,202,206,42.5,20.3,10,3
+M003,M003025,India,Namibia,Namibia,India,Defending,311,130,50,42.3,2,10
+M003,M003026,Kenya,Sri Lanka,Sri Lanka,Kenya,Defending210,210,157,50,45,9,10
+M003,M003027,Zimbawe,Australia,Zimbawe,Australia,Chasing,246,248,50,47.3,8,3
+M003,M003028,Pakistan,Netherlands,Netherlands,Pakistan,Defending,253,156,50,39.3,9,10
+M003,M003029,Bangladesh,New Zealand,Bangladesh,New Zealand,Chasing,198,199,50,33.3,7,3
+M003,M003030,India,England,India,India,Defending,250,168,50,45.3,9,10
+M003,M003031,Australia,Namibia,Australia,Australia,Defending,301,45,50,14,6,20
+M003,M003032,South Africa,Canada,Canada,South Africa,Defending,254,136,50,50,8,5
+M003,M003033,Zimbawe,Netherlands,Netherlands,Zimbawe,Defending,301,202,50,50,8,9
+M003,M003034,Sri Lanka,West Indies,Sri Lanka,Sri Lanka,Defending,228,222,50,50,6,9
+M003,M003035,Kenya,Bangladesh,Kenya,Kenya,Defending,217,185,50,47.2,7,10
+M003,M003036,Pakistan,India,Pakistan,India,Chasing,273,276,50,45.4,7,4
+M003,M003037,England,Australia,England,Australia,Chasing,204,208,50,49.4,8,8
+M003,M003038,Canada,New Zealand,New Zealnd,New Zealand,Chasing,196,197,47,23,10,5
+M003,M003039,Netherlands,Namibia,Netherlands,Netherlands,Defending,314,250,50,46.5,4,10
+M003,M003040,Sri Lanka,South Africa,Sri Lanka,Tie,null,268,229,50,45,9,6
+M003,M003041,Pakistan,Zimbawe,Pakistan,Null,null,73,null,14,null,3,null
+M003,M003042,West Indies,Kenya,West Indies,West Indies,Defending,246,104,50,35.5,7,10
+M003,M003043,Australia,Sri Lanka,Australia,Australia,Defending,319,223,50,47.4,5,10
+M003,M003044,West Indies,Kenya,Kenya,India,Chasing,225,226,50,47.5,6,4
+M003,M003045,Zimbawe,New Zealand,Zimbawe,New Zealand,Chasing,252,253,50,47.2,7,4
+M003,M003046,India,Sri Lanka,Sri Lanka,India,Defending,292,109,50,23,6,10
+M003,M003047,Australia,New Zealand,New Zealnd,Australia,Defending,208,112,50,30.1,9,10
+M003,M003048,Zimbawe,Kenya,Zimbawe,Kenya,Chasing,133,135,50,26,10,3
+M003,M003049,New Zealand,India,India,India,Chasing,146,150,50,40.4,10,3
+M003,M003050,Sri Lanka,Zimbawe,Sri Lanka,Sri Lanka,Defending,256,182,50,41.5,5,10
+M003,M003051,Kenya,Australia,Australia,Australia,Chasing,174,178,50,31.2,8,5
+M003,M003052,Australia,Sri Lanka,Australia,Australia,Defending,212,123,50,38.1,7,7
+M003,M003053,India,Kenya,India,India,Defending,270,179,50,46.2,4,10
+M003,M003054,Australia,India,India,Australia,Defending,359,234,50,39.2,2,10

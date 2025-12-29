@@ -1,0 +1,39 @@
+Tournament_ID,Match_ID+B38:N38,Team_1,Team_2,Toss_Won_By,Winner,Match_Won_by,1st_innings_score,2nd_innings_score,Overs_1st,Overs_2nd,1st_innings_wicket,2nd_innings_wicket
+M096,M096001,New Zealand,England,England,New Zealand,Defending,239,228,50,50,10,10
+M096,M096002,South Africa,United Arab Emirates,United Arab Emirates,South Africa,Defending,321,152,50,50,3,8
+M096,M096003,Zimbawe,West Indies,Zimbawe,West Indies,Chasing,151,155,50,28.3,9,4
+M096,M096004,New Zealand,Netherlands,New Zealand,New Zealand,Defending,307,188,50,50,8,7
+M096,M096005,Sri Lanka,Australia,null,Sri Lanka,Null,null,null,null,null,null,null
+M096,M096006,Kenya,India,India,India,Chasing,199,203,50,41.5,6,3
+M096,M096007,United Arab Emirates,England,United Arab Emirates,England,Chasing,136,140,50,35,10,2
+M096,M096008,New Zealand,South Africa,New Zealand,South Africa,Chasing,177,178,50,37.3,9,5
+M096,M096009,Zimbawe,Sri Lanka,Zimbawe,Sri Lanka,Chasing,228,229,50,37,6,4
+M096,M096010,West Indies,India,West Indies,India,Chasing,173,174,50,39.4,10,5
+M096,M096011,England,Netherlands,England,England,Defending,279,230,50,50,4,6
+M096,M096012,Australia,Kenya,Kenya,Australia,Defending,304,207,50,50,7,7
+M096,M096013,United Arab Emirates,Pakistan,Pakistan,Pakistan,Chasing,109,112,33,18,9,1
+M096,M096014,South Africa,England,South Africa,South Africa,Defending,230,152,50,44.3,10,10
+M096,M096015,Sri Lanka,West Indies,null,Sri Lanka,Null,null,null,null,null,null,null
+M096,M096016,Zimbawe,Kenya,Zimbawe,Null,Null,45,null,15.5,null,3,null
+M096,M096017,Netherlands,Pakistan,Netherlands,Pakistan,Chasing,145,151,50,30.4,7,2
+M096,M096018,Kenya,Zimbawe,Zimbawe,Zimbawe,Chasing,134,137,50,30.4,10,5
+M096,M096019,New Zealand,United Arab Emirates,United Arab Emirates,New Zealand,Defending,276,167,47,47,8,9
+M096,M096020,Australia,India,Australia,Australia,Defending,258,242,50,48,10,10
+M096,M096021,Kenya,West Indies,West Indies,Kenya,Defending,166,93,50,35.2,10,10
+M096,M096022,Pakistan,South Africa,Pakistan,South Africa,Chasing,242,243,50,44.2,6,5
+M096,M096023,Zimbawe,Australia,Zimbawe,Australia,Chasing,154,158,50,36,10,2
+M096,M096024,Netherlands,United Arab Emirates,United Arab Emirates,United Arab Emirates,Chasing,216,220,50,44.2,9,3
+M096,M096025,India,Sri Lanka,Sri Lanka,Sri Lanka,Chasing,271,272,50,48.4,3,4
+M096,M096026,England,Pakistan,England,Pakistan,Chasing,249,250,50,47.4,9,3
+M096,M096027,Australia,West Indies,Australia,West Indies,Chasing,229,232,50,48.5,6,6
+M096,M096028,South Africa,Netherlands,South Africa,South Africa,Defending,328,168,50,50,3,8
+M096,M096029,India,Zimbawe,Zimbawe,India,Defending,247,207,50,49.4,5,10
+M096,M096030,Sri Lanka,Kenya,Kenya,Sri Lanka,Defending,398,254,50,50,5,7
+M096,M096031,Pakistan,New Zealand,New Zealand,Pakistan,Defending,281,235,50,47.3,5,10
+M096,M096032,England,Sri Lanka,England,Sri Lanka,Chasing,235,236,50,40.4,8,5
+M096,M096033,India,Pakistan,India,India,Defending,287,248,50,49,8,9
+M096,M096034,West Indies,South Africa,West Indies,West Indies,Defending,264,245,50,49.3,8,10
+M096,M096035,New Zealand,Australia,New Zealand,Australia,Chasing,286,289,50,47.5,9,4
+M096,M096036,Sri Lanka,India,India,Sri Lanka,Null,251,120,50,34.1,8,8
+M096,M096037,Australia,West Indies,Australia,Australia,Defending,207,202,50,49.3,8,10
+M096,M096038,Australia,Sri Lanka,Sri Lanka,Sri Lanka,Chasing,241,245,50,46.2,7,3

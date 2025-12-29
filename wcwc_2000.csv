@@ -1,0 +1,32 @@
+Tournament_ID,Match_ID,Team_1,Team_2,Toss_Won_By,Winner,Match_Won_by,1st_innings_score,2nd_innings_score,Overs_1st,Overs_2nd,1st_innings_wicket,2nd_innings_wicket
+W000,W000001,New Zealand,Australia,Australia,Australia,Chasing,166,167,50,47.3,9,4
+W000,W000002,England,Netherlands,England,England,Defending,256,116,50,50,3,9
+W000,W000003,South Africa,India,India,India,Chasing,128,129,50,39.4,8,2
+W000,W000004,Australia,Sri Lanka,Australia,Australia,Defending,282,82,50,39,3,10
+W000,W000005,Ireland,New Zealand,Ireland,New Zealand,Chasing,99,102,49.4,24.5,10,2
+W000,W000006,England,South Africa,South Africa,South Africa,Chasing,143,144,47.5,46.5,10,5
+W000,W000007,India,Netherlands,Netherlands,India,Defending,275,121,50,50,4,6
+W000,W000008,Ireland,Australia,Ireland,Australia,Chasing,90,91,49.3,20.3,10,0
+W000,W000009,New Zealand,Sri Lanka,New Zealand,New Zealand,Defending,210,88,50,49.3,4,10
+W000,W000010,India,England,India ,India,Defending,155,147,50,49.2,7,10
+W000,W000011,Netherlands,South Africa,Netherlands,South Africa,Chasing,92,93,37.1,26.2,10,6
+W000,W000012,Sri Lanka,Ireland,Ireland,Sri Lanka,Defending,129,119,47.3,49.5,10,10
+W000,W000013,Australia,India,Australia,Australia,Defending,223,172,50,50,5,8
+W000,W000014,Netherlands,New Zealand,Netherlands,New Zealand,Chasing,80,81,48,16.3,10,2
+W000,W000015,Ireland,England ,Ireland,England,Chasing,103,105,44.2,29.3,10,2
+W000,W000016,Sri Lanka,South Africa,South Africa,South Africa,Chasing,134,135,50,45.3,9,4
+W000,W000017,New Zealand,India,New Zealand,New Zealand,Defending,224,150,50,50,5,7
+W000,W000018,Australia,England,Australia,Australia,Defending,190,136,50,47.3,7,10
+W000,W000019,Sri Lanka,Netherlands,Netherlands,Sri Lanka,Defending,139,113,47.1,39.4,10,10
+W000,W000021,New Zealand,South Africa,South Africa,New Zealand,Defending,265,107,50,35.4,5,10
+W000,W000020,India,Ireland,Ireland,India,Defending,199,169,50,47.2,9,10
+W000,W000022,England,Sri Lanka,England,England,Defending,242,137,50,50,4,9
+W000,W000023,South Africa,Australia,South Africa,Australia,Chasing,169,171,50,25,8,1
+W000,W000024,New Zealand,England,England,New Zealand,Defending,238,145,50,47.3,8,10
+W000,W000025,Ireland,Netherlands,Netherlands,Ireland,Defending,232,191,50,50,6,8
+W000,W000026,India,Sri Lanka,India,India,Defending,230,89,50,49.2,4,10
+W000,W000027,Netherlands,Australia,Netherlands,Australia,Chasing,107,109,50,24,7,0
+W000,W000028,Ireland,South Africa,South Africa,South Africa,Chasing,176,177,50,36.2,9,1
+W000,W000029,South Africa,Australia,Australia,Australia,Chasing,180,181,50,31.2,8,1
+W000,W000030,India,New Zealand,India,New Zealand,Chasing,117,121,45.2,26.5,10,1
+W000,W000031,New Zealand,Australia,New Zealand,New Zealand,Defending,184,180,48.4,49.1,10,10

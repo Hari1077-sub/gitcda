@@ -1,0 +1,32 @@
+Tournament_ID,Match_ID,Team_1,Team_2,Toss_Won_By,Winner,Match_Won_by,1st_innings_score,2nd_innings_score,Overs_1st,Overs_2nd,1st_innings_wicket,2nd_innings_wicket
+W005,W005001,England,Australia,England,Null,Null,169,Null,50,Null,7,Null
+W005,W005002,Sri Lanka,India,Sri Lanka,Null,Null,116,4,46.5,2,10,0
+W005,W005003,South Africa,Ireland,Ireland,Null,Null,204,Null,48,Null,7,Null
+W005,W005004,New Zealand,West Indies,West Indies,Null,Null,178,18,50,3.4,8,2
+W005,W005005,Australia,New Zealand,Australia,Australia,Defending,174,142,50,49.3,7,10
+W005,W005006,England,Sri  Lanka,England,England,Defending,284,70,50,26,4,10
+W005,W005007,Ireland, India,Ireland,India,Chasing,65,68,42.1,17.2,10,1
+W005,W005008,South Africa,West Indies,South Africa,South Africa,Defending,169,168,49,49.4,10,10
+W005,W005009,Australia,West Indies,Australia,Australia,Defending,230,151,49.2,48.3,10,10
+W005,W005010,England,Ireland,England,England,Defending,221,93,50,50,6,8
+W005,W005011,South Africa,India,South Africa,India,Chasing,80,81,34.3,25.5,10,6
+W005,W005012,Sri Lanka,New Zealand,New Zealand,New Zealand,Chasing,58,59,34.3,18.4,10,3
+W005,W005013,Australia,South Afri,South Africa,Australia,Defending,256,159,50,49,5,9
+W005,W005014,England,India,England,India,Chasing,139,141,49.3,45.5,10,3
+W005,W005015,Ireland,New Zealand,New Zealand,New Zealand,Chasing,91,95,49,18.2,10,1
+W005,W005016,Sri Lanka,West Indies,Sri Lanka,West Indies,Chasing,152,156,48.1,39.2,10,2
+W005,W005017,Sri Lanka,Australia,Australia,Australia,Chasing,57,58,38.2,16.4,10,2
+W005,W005018,South Africa,England,England,England,Chasing,174,180,50,39.5,6,2
+W005,W005019,New Zealand,India,India,New Zealand,Defending,184,168,50,50,9,9
+W005,W005020,Ireland,West Indies,West Indies,West Indies,Chasing,159,163,50,36.3,6,2
+W005,W005021,Ireland,Australia,Ireland,Australia,Chasing,66,68,50,14,8,0
+W005,W005022,England,New Zealand,England,New Zealand,Chasing,179,180,50,48.5,6,5
+W005,W005023,West Indies,India,India,India,Chasing,135,139,47.4,33,10,2
+W005,W005024,Sri Lanka,South Afri,South Africa,Sri Lanka,Defending,158,126,47.4,43.4,10,10
+W005,W005025,Australia,India,Null,Null,Null,Null,Null,Null,Null,Null,Null
+W005,W005026,England,West Indies,Null,Null,Null,Null,Null,Null,Null,Null,Null
+W005,W005027,Ireland,Sri  Lanka,Null,Null,Null,Null,Null,Null,Null,Null,Null
+W005,W005028,South Africa,New Zealand,Null,Null,Null,Null,Null,Null,Null,Null,Null
+W005,W005029,England,Australia,Australia,Australia,Chasing,158,159,49.4,47,10,5
+W005,W005030,India,New Zealand,New Zealand,India,Defending,204,164,50,43.4,6,10
+W005,W005031,Australia,India,Australia,Australia,Defending,215,117,50,46,4,10
