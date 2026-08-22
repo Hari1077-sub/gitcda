@@ -1,58 +1,77 @@
 CREATE SCHEMA cwc_analysis;
 USE cwc_analysis;
+
+
 CREATE TABLE AVERAGE_RUN_RATE_PER_TOURNAMENT(
-Tournament_ID VARCHAR(50) PRIMARY KEY,
-Average_Run_Rate FLOAT
+	Tournament_ID VARCHAR(50) PRIMARY KEY,
+	Average_Run_Rate FLOAT
 );
+
+
 INSERT INTO  AVERAGE_RUN_RATE_PER_TOURNAMENT
 SELECT 
-   Tournament_ID,round(avg((((1st_innings_score / Overs_1st) + (2nd_innings_score / Overs_2nd)) / 2)),2) AS ARR_per_tournament
+   Tournament_ID,
+   ROUND(AVG((((1st_innings_score / Overs_1st) + (2nd_innings_score / Overs_2nd)) / 2)),2) AS ARR_per_tournament
 FROM
-  cwc_analysis.Wcwc_2022 Group by Tournament_ID;
+  "db_name"."table_name" 
+Group by 
+		Tournament_ID;
+
+
 CREATE TABLE Win_bias(
-Tournament_ID VARCHAR(10) PRIMARY KEY,
-Matches_Won_by_Chasing INT,
-Matches_Won_by_Defending INT
+	Tournament_ID VARCHAR(10) PRIMARY KEY,
+	Matches_Won_by_Chasing INT,
+	Matches_Won_by_Defending INT
 );
+
+
 INSERT INTO Win_bias
 SELECT 
     Tournament_ID,
     (SELECT 
             COUNT(Match_Won_by)
         FROM
-            cwc_analysis.cwc_2019
+           "db_name"."table_name"
         WHERE
             Match_Won_by = 'Chasing') as Matches_Won_by_Chasing,
     (SELECT 
             COUNT(Match_Won_by)
         FROM
-           cwc_analysis.cwc_2019
+           "db_name"."table_name"
         WHERE
             Match_Won_by = 'Defending') as Matches_Won_by_Defending
 FROM
-    cwc_analysis.cwc_2019
-group by 
+    "db_name"."table_name"
+GROUP BY
 	Tournament_ID;
+
+
 CREATE TABLE  TOSS_ROLE_IN_WINNING(
 Tournament_ID VARCHAR(10) PRIMARY KEY,
 no_of_teams_won_toss_and_match INT
 );
+
+
 INSERT INTO TOSS_ROLE_IN_WINNING
 SELECT 
     Tournament_ID,
     (SELECT 
             COUNT(Winner)
         FROM
-            cwc_analysis.cwc_2023
+            "db_name"."table_name"
         WHERE
             Winner = Toss_Won_By) AS no_of_teams_won_toss_and_match
 FROM
-    cwc_analysis.cwc_2023
+    "db_name"."table_name"
 GROUP BY Tournament_ID;
+
+
 CREATE TABLE bowling_intensity(
 Tournament_ID VARCHAR(10) PRIMARY KEY,
 Bowling_Index enum('Lethal','Average','Poor')
 );
+
+
 INSERT INTO bowling_intensity
 SELECT 
     Tournament_ID,
@@ -68,24 +87,40 @@ SELECT
         ELSE 'Poor'
     END AS Bowling_Index
 FROM 
-    wcwc_2022
+    "db_name"."table_name"
 GROUP BY 
     Tournament_ID;
-CREATE OR REPLACE VIEW ANALYSED AS
-SELECT 
-    t1.Tournament_ID,
+
+
+CREATE TABLE ANALYSED (
+    Tournament_ID PRIMARY KEY,
+    Average_Run_Rate,
+    Bowling_Index,
+	no_of_teams_won_toss_and_match,
+    Matches_Won_by_Chasing,
+    Matches_Won_by_Defending
+);
+SELECT
+	t1.Tournament_ID,
     t1.Average_Run_Rate,
     t2.Bowling_Index,
-    t3.no_of_teams_won_toss_and_match,
+	t3.no_of_teams_won_toss_and_match,
     t4.Matches_Won_by_Chasing,
     t4.Matches_Won_by_Defending
-FROM cwc_analysis.average_run_rate_per_tournament AS t1
-JOIN cwc_analysis.bowling_intensity AS t2 
-    ON t1.Tournament_ID = t2.Tournament_ID
-JOIN cwc_analysis.toss_role_in_winning AS t3 
-    ON t1.Tournament_ID = t3.Tournament_ID
-JOIN cwc_analysis.win_bias AS t4 
-    ON t1.Tournament_ID = t4.Tournament_ID
+FROM 
+		cwc_analysis.average_run_rate_per_tournament AS t1
+JOIN 
+		cwc_analysis.bowling_intensity AS t2 
+ON 
+	t1.Tournament_ID = t2.Tournament_ID
+JOIN
+	cwc_analysis.toss_role_in_winning AS t3 
+ON 
+	t1.Tournament_ID = t3.Tournament_ID
+JOIN
+	cwc_analysis.win_bias AS t4 
+ON 
+	t1.Tournament_ID = t4.Tournament_ID
 GROUP BY 
     t1.Tournament_ID, 
     t2.Bowling_Index, 
